@@ -11,3 +11,5 @@ digits.each do |d|
     puts "0"
   end
 end
+
+ 

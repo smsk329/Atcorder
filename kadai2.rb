@@ -37,3 +37,22 @@ while i <= 10 do
   puts i
   i += 1 # iの数値に1を加えたい時は、i = i +1と書く代わりに、i += 1と書くことができます。
 end
+
+def fizz_buzz(number)
+  if number % 15 == 0
+    "FizzBuzz"
+  elsif number % 3 == 0
+    "Fizz"
+  elsif number % 5 == 0
+    "Buzz"
+  else
+    number.to_s
+  end
+end
+
+puts "数字を入力してください。"
+
+input = gets.to_i
+
+puts '結果は...'
+puts fizz_buzz(input)

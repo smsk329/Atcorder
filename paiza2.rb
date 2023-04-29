@@ -10,6 +10,6 @@ digits.each do |d|
   else
     puts "0"
   end
-end
+end 
 
  
